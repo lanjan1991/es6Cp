@@ -10,4 +10,5 @@ gulp.task('browser',(cb)=>{
     if(!args.watch) return cb();
     gulp.watch('app/**/*.js',['scripts']);
     gulp.watch('app/**/*.css',['css']);
-})
+    gulp.watch('app/**/*.css',['css']);
+});
