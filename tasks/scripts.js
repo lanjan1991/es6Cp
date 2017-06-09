@@ -31,7 +31,7 @@ gulp.task('scripts',()=>{ //创建gulp脚本任务
                 chunks:false
             }))
         })
-        .pipe(gulp.dest('server/plublic/js')) //编译后的文件放置路径
+        .pipe(gulp.dest('server/public/js')) //编译后的文件放置路径
         .pipe(rename({ //重新命名编译后项目名字
             basename:'cp',
             extname:'.min.js'
