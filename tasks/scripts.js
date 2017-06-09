@@ -23,7 +23,7 @@ gulp.task('scripts',()=>{ //创建gulp脚本任务
             module:{
                 loaders:[{
                     tests:/\.js$/,
-                    loaders:'babel'
+                    loader:'babel'
                 }]
             }
         }),null,(err,stats)=>{ //错误的时候的处理
