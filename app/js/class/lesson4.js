@@ -1,5 +1,5 @@
 /**
- * 3-4 字符串扩展(上)
+ * 3-4 字符串扩展
  * npm install babel-polyfill --save-dev
  */
 
