@@ -40,4 +40,6 @@ class Timer {
             }, 1000);
         }
     }
+
+    export default Timer
 }
