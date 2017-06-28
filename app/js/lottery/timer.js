@@ -41,5 +41,5 @@ class Timer {
         }
     }
 
-    export default Timer
 }
+export default Timer

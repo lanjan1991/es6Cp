@@ -75,5 +75,5 @@ class Interface {
         });
     }
 
-    export default Interface
 }
+export default Interface
